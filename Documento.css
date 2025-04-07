@@ -1,0 +1,80 @@
+/* Estilos generales para la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Contenedor principal del documento */
+  .documento {
+    width: 600px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Cabecera del documento */
+  .header {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Área para la imagen */
+  .imagen {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+  /* Título o nombre del sujeto */
+  .titulo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Campos de información */
+  .info {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Área para la descripción */
+  .descripcion {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #ccc;
+  }
+  
+  /* Elemento tipo logo (opcional) */
+  .logo {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+  }
+  
