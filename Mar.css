@@ -1,4 +1,3 @@
-/* Estilos generales para la página */
 body {
     margin: 0;
     padding: 0;
@@ -8,13 +7,17 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-  }
+    background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2018-03/21/8/asset/buzzfeed-prod-web-06/sub-buzz-8422-1521635812-1.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto'); /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
   
   /* Contenedor principal del documento */
   .documento {
     width: 600px;
-    background-color: #fff;
-    border: 2px solid #ccc;
+    background-color: #040404;
+    border: 2px solid #ffffff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -47,14 +50,14 @@ body {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #333;
+    color: #f9f8f8;
   }
   
   /* Campos de información */
   .info {
     font-size: 16px;
     margin-bottom: 10px;
-    color: #555;
+    color: #f9f9f9;
   }
   
   /* Área para la descripción */
@@ -63,7 +66,6 @@ body {
     line-height: 1.5;
     margin-top: 15px;
     padding: 10px;
-    background-color: #f9f9f9;
-    border-left: 4px solid #ccc;
+    background-color: #cdcdcd;
+    border-left: 4px solid #fefefe;
   }
-  

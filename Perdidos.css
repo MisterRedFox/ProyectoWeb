@@ -1,9 +1,8 @@
-/* Estilos generales para la página */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #eaeaea;
+    background-color: #171717;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +12,7 @@ body {
   /* Contenedor principal del documento */
   .documento {
     width: 600px;
-    background-color: #fff;
+    background-color: #cccccc;
     border: 2px solid #ccc;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -63,7 +62,7 @@ body {
     line-height: 1.5;
     margin-top: 15px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #efefef;
     border-left: 4px solid #ccc;
   }
   
