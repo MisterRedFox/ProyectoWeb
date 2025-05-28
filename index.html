@@ -7,34 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="shorcut icon" href="imgs/icono.jpg">
-    <style>
-        /* Estilos para el jumpscare */
-        #jumpscare {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: black;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        #jumpscare img {
-            width: 60vw;
-            height: auto;
-        }
-
-        @keyframes shake {
-            0% { transform: translate(0, 0); }
-            25% { transform: translate(-5px, 5px); }
-            50% { transform: translate(5px, -5px); }
-            75% { transform: translate(-5px, 5px); }
-            100% { transform: translate(0, 0); }
-        }
-    </style>
 
 </head>
 <body>
@@ -127,30 +99,6 @@
         <p>&copy; RED FOX
         </p>
     </footer>
-
-    <!-- Contenedor de jumpscare -->
-    <div id="jumpscare">
-        <img src="jumpscare/jumpscare.jpg" alt="Jumpscare">
-        <audio id="scream" src="jumpscare/Scary Woman Screaming - Sound Effect (HD).mp3"></audio>
-    </div>
-
-    <script>
-        function showJumpscare() {
-            document.getElementById("jumpscare").style.display = "flex";
-            document.getElementById("scream").play();
-            document.body.style.animation = "shake 0.5s";
-            setTimeout(() => {
-                document.getElementById("jumpscare").style.display = "none";
-                document.body.style.animation = "";
-            }, 2000);
-        }
-
-        setTimeout(() => {
-            if (Math.random() < 1) { // 30% de probabilidad de activarse
-                showJumpscare();
-            }
-        }, Math.random() * 10000 + 5000); // Entre 5 y 15 segundos
-    </script>
 
 </body>
 </html>
